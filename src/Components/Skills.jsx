@@ -3,7 +3,7 @@ function SkillTag({ children }) {
     <span
       className="px-3 py-1 text-sm bg-white border border-neutral-200  
   rounded-full text-neutral-700 inline-block mb-2 mr-2 shadow-sm 
-  hover:bg-neutral-100 transition"
+  hover:bg-neutral-100 transition hover:mouse-pointer"
     >
       {children}
     </span>
@@ -38,7 +38,7 @@ export default function Skills() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Development */}
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-neutral-200 hover:shadow-md transition-shadow mt-6">
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-neutral-200 hover:shadow-md transition-shadow mt-6 pointer">
               <h3 className="text-xl font-semibold text-neutral-900 mb-4">
                 💻Development
               </h3>
